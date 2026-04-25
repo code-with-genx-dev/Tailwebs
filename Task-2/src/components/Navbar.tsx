@@ -57,7 +57,7 @@ export const Navbar = () => {
 
   return (
     <nav className={`bg-white transition-all duration-300 z-[999] ${scrolled ? 'fixed top-0 left-0 w-full shadow-md animate-[slideDown_0.5s_ease]' : 'relative py-2.5'}`}>
-      <div className="container mx-20 px-4 flex justify-between items-center h-[60px]">
+      <div className="container lg:mx-20 px-4 flex justify-between items-center h-[60px]">
 
         {/* Logo */}
         <a href="#" className="flex-shrink-0">
@@ -101,7 +101,7 @@ export const Navbar = () => {
       </div>
 
       {/* Mobile Menu Overlay */}
-      <div className={`fixed inset-0 bg-white z-[1000] overflow-y-auto transition-transform duration-300 lg:hidden ${mobileOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+      <div className={`fixed inset-0 bg-white z-1000 overflow-y-auto transition-transform duration-300 lg:hidden ${mobileOpen ? 'translate-x-0' : 'translate-x-full'}`}>
 
         {/* Mobile Header */}
         <div className="flex items-center justify-between px-5 h-[76px] border-b-[3px] border-primary">
