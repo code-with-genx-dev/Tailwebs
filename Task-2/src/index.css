@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'DM Sans', sans-serif;
+
+  --color-primary: #4bb5c3;
+  --color-primary-hover: #3aa3b1;
+  --color-secondary: #203A70;
+  --color-secondary-light: #2A4C91;
+  --color-secondary-dark: #122244;
+  --color-text-main: #333333;
+  --color-text-muted: #666666;
+  --color-bg-light: #F8F9FA;
+  --color-bg-white: #FFFFFF;
+  --color-border: #E0E0E0;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-text-main bg-bg-white leading-relaxed overflow-x-hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold leading-tight text-secondary;
+  }
+
+  a {
+    @apply no-underline text-primary transition-colors duration-300;
+  }
+
+  a:hover {
+    @apply text-primary-hover;
+  }
+
+  section {
+    @apply py-20 relative;
+  }
+}
+
+@layer utilities {
+  .animate-target {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+
+  .animate-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Hero button custom */
+  .btn-hero-primary {
+    @apply inline-flex items-center justify-center px-5 py-2 font-semibold rounded-full border-2 border-primary bg-primary text-white transition-all duration-300 text-sm tracking-wide gap-2;
+  }
+
+  .btn-hero-primary:hover {
+    @apply bg-primary-hover border-primary-hover text-white;
+  }
+
+  .btn-hero-outline {
+    @apply inline-flex items-center justify-center px-5 py-2 font-semibold rounded-full border border-secondary bg-transparent text-black transition-all duration-300 text-sm tracking-wide gap-2 ml-4;
+  }
+
+  .btn-hero-outline:hover {
+    @apply bg-secondary text-white border-secondary;
+  }
+
+  /* Other buttons */
+  .btn-text {
+    @apply text-primary py-2 bg-transparent border-none font-semibold transition-colors duration-200;
+  }
+
+  .btn-text i {
+    @apply transition-transform duration-200 inline-block;
+  }
+
+  .btn-text:hover {
+    @apply text-primary-hover;
+  }
+
+  .btn-text:hover i {
+    @apply translate-x-1;
+  }
+
+  .btn-cta {
+    @apply inline-flex items-center gap-2 bg-primary text-white px-8 py-3 rounded-lg mt-8 font-semibold transition-colors duration-300;
+  }
+
+  .btn-cta:hover {
+    @apply bg-white text-secondary;
+  }
+}
+
+@keyframes popup {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@layer utilities {
+  .animate-popup {
+    animation: popup 0.3s ease-in-out forwards;
+  }
+}

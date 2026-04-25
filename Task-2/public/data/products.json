@@ -1,0 +1,203 @@
+[
+  {
+    "id": 1,
+    "title": "From Goa to the Globe: How Pravimal Abhishek led the GIDC to digitally transform industrial governance in Goa",
+    "thumbnail": "/assets/MUKTASoft-Case-Study-1.png",
+    "category": "Articles",
+    "authors": "Darshana Ramdev",
+    "date": "25 Jul 2025",
+    "tags": [
+      "Local Governance",
+      "GOA-IDC",
+      "Pravimal Abhishek"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Tech for Billions, Talent for None: Fixing GovTech's Biggest Gap",
+    "thumbnail": "/assets/Scaler-Article-Thumb-1.jpg",
+    "category": "Articles",
+    "authors": "Darshana Ramdev",
+    "date": "10 Mar 2025",
+    "tags": [
+      "DIGIT"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "From Systems to Ecosystems: A Shared Journey to Build Digital Public Goods",
+    "thumbnail": "/assets/State-led-Thumb.jpg",
+    "category": "Articles",
+    "authors": "Viraj Tyagi",
+    "date": "10 Jan 2025",
+    "tags": [
+      "Digital Public Infrastructure",
+      "Digital Public Goods",
+      "Local Governance"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Enabling Social Benefit Delivery through Digital Public Infrastructure",
+    "thumbnail": "/assets/DOT-September-Thumb.jpg",
+    "category": "Case Studies",
+    "authors": "eGov Foundation",
+    "date": "12 Sep 2024",
+    "tags": [
+      "Odisha",
+      "Public Finance",
+      "Social Benefits Delivery"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Accelerating Revenue Mobilisation through Digital Public Infrastructure (DPI)",
+    "thumbnail": "/assets/solvernetwork-thumb.webp",
+    "category": "Case Studies",
+    "authors": "eGov Foundation",
+    "date": "11 Sep 2024",
+    "tags": [
+      "DPI",
+      "Local Governance",
+      "Andhra Pradesh",
+      "Revenue Mobilization"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "National Urban Innovation Stack – Strategy & Approach",
+    "thumbnail": "/assets/Elected-Representative-Thumb.webp",
+    "category": "Strategy Papers",
+    "authors": "eGov Foundation",
+    "date": "13 Aug 2024",
+    "tags": [
+      "Urban",
+      "NIUA",
+      "Strategy"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Reimagining Sanitation Services with Digital Public Infrastructure – A Strategy Note",
+    "thumbnail": "/assets/MUKTASoft-Case-Study-1.png",
+    "category": "Strategy Papers",
+    "authors": "eGov Foundation",
+    "date": "13 Aug 2024",
+    "tags": [
+      "WASH",
+      "Sanitation"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Strategy and Approach to Public Financial management",
+    "thumbnail": "/assets/Systems-to-Ecosystems-Thumb.jpg",
+    "category": "Strategy Papers",
+    "authors": "eGov Foundation",
+    "date": "12 Aug 2024",
+    "tags": [
+      "PFM",
+      "Public Finance"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Karnataka's Centre for Smart Governance and eGov Foundation Announce Strategic Partnership to Transform Public Service",
+    "thumbnail": "/assets/solvernetwork-thumb.webp",
+    "category": "News & Media",
+    "authors": "eGov Foundation",
+    "date": "11 Aug 2025",
+    "tags": [
+      "Local Governance",
+      "Press Releases"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "AI for Sustainable Cities: AIRAWAT and eGov Foundation Launch Strategic Partnership for Urban Governance",
+    "thumbnail": "/assets/MUKTASoft-Case-Study-1.png",
+    "category": "News & Media",
+    "authors": "eGov Foundation",
+    "date": "27 Jun 2025",
+    "tags": [
+      "Local Governance",
+      "Press Releases"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Government of Punjab and eGov Foundation Sign MoU to Drive Urban Innovation Across Technology, Policy and Revenue Systems",
+    "thumbnail": "/assets/Scaler-Article-Thumb-1.jpg",
+    "category": "News & Media",
+    "authors": "eGov Foundation",
+    "date": "09 May 2025",
+    "tags": [
+      "Local Governance",
+      "Press Releases"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "DOT – A DIGIT Quarterly Newsletter",
+    "thumbnail": "/assets/DOT-September-Thumb.jpg",
+    "category": "Newsletter",
+    "authors": "eGov Foundation",
+    "date": "20 Jan 2026",
+    "tags": []
+  },
+  {
+    "id": 13,
+    "title": "DOT 2025 | Top Stories of Partnerships & Impact",
+    "thumbnail": "/assets/DOT-September-Thumb.jpg",
+    "category": "Newsletter",
+    "authors": "eGov Foundation",
+    "date": "30 Dec 2025",
+    "tags": []
+  },
+  {
+    "id": 14,
+    "title": "DOT September 2025",
+    "thumbnail": "/assets/DOT-September-Thumb.jpg",
+    "category": "Newsletter",
+    "authors": "eGov Foundation",
+    "date": "11 Sep 2025",
+    "tags": []
+  },
+  {
+    "id": 15,
+    "title": "Roundtable on Empowering Elected Representatives and Citizens",
+    "thumbnail": "/assets/Elected-Representative-Thumb.webp",
+    "category": "Whitepapers",
+    "authors": "eGov Foundation +2 More",
+    "date": "23 Apr 2026",
+    "tags": [
+      "Local Governance"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "The Solver Network | A Policy Vision for Collaborative Public Problem-Solving",
+    "thumbnail": "/assets/solvernetwork-thumb.webp",
+    "category": "Whitepapers",
+    "authors": "T Krishnakumar +2 More",
+    "date": "07 Apr 2026",
+    "tags": [
+      "Local Governance"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "State-led Urban Digital Transformation",
+    "thumbnail": "/assets/State-led-Thumb.jpg",
+    "category": "Whitepapers",
+    "authors": "Mathews P Joseph +2 More",
+    "date": "13 Mar 2026",
+    "tags": [
+      "Odisha",
+      "Kerala",
+      "Local Governance",
+      "Andhra Pradesh",
+      "Punjab"
+    ]
+  }
+]
