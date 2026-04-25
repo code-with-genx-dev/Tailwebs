@@ -2,12 +2,12 @@ import { useState, useEffect, useRef } from 'react';
 import { BiChevronDown, BiSearch, BiMenu, BiX } from 'react-icons/bi';
 
 export const Navbar = () => {
-  const [scrolled, setScrolled] = useState(false);
-  const [mobileOpen, setMobileOpen] = useState(false);
+  const [scrolled, setScrolled] = useState<boolean>(false);
+  const [mobileOpen, setMobileOpen] = useState<boolean>(false);
   const [openMobileMenu, setOpenMobileMenu] = useState<string | null>('About Us'); // Default open for demonstration
-  const [langOpen, setLangOpen] = useState(false);
-  const [isSearch, setIsSearch] = useState(false);
-  const inputRef = useRef(null);
+  const [langOpen, setLangOpen] = useState<boolean>(false);
+  const [isSearch, setIsSearch] = useState<boolean>(false);
+  const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     if (isSearch && inputRef.current) {
